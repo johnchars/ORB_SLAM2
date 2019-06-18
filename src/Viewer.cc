@@ -23,6 +23,8 @@
 
 #include <mutex>
 
+#include <unistd.h> //cwj
+
 namespace ORB_SLAM2
 {
 
