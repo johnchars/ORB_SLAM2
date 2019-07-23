@@ -1,7 +1,7 @@
 #!/usr/bin/bash 
 echo "Cloning ORB_SLAM2 from git "
 cd 
-mkdir -p slam_ws/src
+mkdir -p slam_ws/src && cd slam_ws/src
 git clone https://github.com/johnchars/ORB_SLAM2.git ORB2_CWJ
 cd ORB_SLAM2/Thirdparty
 
@@ -71,6 +71,6 @@ make -j4
 
 echo "Compiling ROS node of ORB_SLAM2"
 cd ../Examples/ROS
-echo "export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/xbot/slam_ws/src/ORB2_CWJ/Examples/ROS" >> ~/.bashrc
+echo "export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/home/xbot/ORB2_CWJ/Examples/ROS" >> ~/.bashrc
 source ~/.bashrc
 ./build_ros.sh  
