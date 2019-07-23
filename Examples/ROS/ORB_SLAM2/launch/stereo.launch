@@ -1,0 +1,4 @@
+<launch>
+	<node name="stereo" pkg="ORB_SLAM2" type="Stereo" args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find d415_orb)/yaml/stereo.yaml" />
+	<!-- Didn't suggest using stereo module -->
+</launch>

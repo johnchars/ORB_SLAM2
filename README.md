@@ -1,3 +1,8 @@
+#### installation & usage
+##### Using install.bash script could install easily
+##### On ORB_SLAM2/launch folder, offering launch files could start ORB-SLAM2
+BTW, Recording bag could unnote the rosbag lines
+
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 

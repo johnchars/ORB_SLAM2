@@ -1,0 +1,4 @@
+<launch>
+	<node name="mono" pkg="ORB_SLAM2" type="Mono" args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find d415_orb)/yaml/mono.yaml" />
+	<!-- node name="recording" pkg="rosbag" type="record" args="/camera/image_raw -o mono" /-->
+</launch>
