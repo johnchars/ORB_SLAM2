@@ -2,6 +2,12 @@
 ##### Using install.bash script could install easily
 ##### On ORB_SLAM2/launch folder, offering launch files could start ORB-SLAM2
 BTW, Recording bag could unnote the rosbag lines
+## 安装和使用
+提供了Install.bash脚本，可以通过运行脚本安装
+
+配置了一些launch文件，可以通过launch文件，直接启动
+
+有一个package D415 在yt.droid.ac.cn上，可以配合Realsense D415一行代码启动建图
 
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
