@@ -1,4 +1,4 @@
 <launch>
-	<node name="RGBD" pkg="ORB_SLAM2" type="RGBD" args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find d415_orb)/yaml/rgb-d.yaml" />
-	<!-- node name="recording" pkg="rosbag" type="record" args="/camera/rgb/image_raw /camera/depth_registered/image_raw-o rgbd" /-->
+	<node name="RGBD" pkg="ORB_SLAM2" type="RGBD" args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find ORB_SLAM2)/yaml/rgb-d.yaml" />
+	<!-- node name="recording" pkg="rosbag" type="record" args="/camera/rgb/image_raw /camera/depth_registered/image_raw -o rgbd" /-->
 </launch>
