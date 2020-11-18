@@ -1,4 +1,6 @@
 <launch>
-	<node name="mono" pkg="ORB_SLAM2" type="Mono" args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find d415_orb)/yaml/mono.yaml" />
+  <param name="use_sim_time" value="true"/>
+	<node name="mono" pkg="ORB_SLAM2" type="Mono" 
+	args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find ORB_SLAM2)/yaml/mono_calibration.yaml" />
 	<!-- node name="recording" pkg="rosbag" type="record" args="/camera/image_raw -o mono" /-->
 </launch>
